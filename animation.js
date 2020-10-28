@@ -3,6 +3,7 @@ function preesme(){
   window.location.href="https://getbootstrap.com/docs/4.5/components/collapse/"
 }
 enlace.onclick= preesme;
+
 // Scroll fuctions 
 let nav = document.getElementById("navbar")
 function scrolled(){
@@ -12,7 +13,7 @@ function scrolled(){
   nav.classList.add("active0")}
   else{nav.classList.remove("active0")}
 }
-window.addEventListener("scroll", scrolled);
+window.addEventListener("scroll", scrolled)
 
 
 // let jordan= document.getElementById("imagen6")
@@ -25,6 +26,7 @@ window.addEventListener("scroll", scrolled);
 // }
 // window.addEventListener("scroll", JordanScrolled);
 // Scroll animations
+
 // Method1
 ScrollReveal().reveal("#navbar", {delay: 500})
 ScrollReveal().reveal(".carousel", {delay: 300})
@@ -52,11 +54,7 @@ Window.sr.reveal("#imagen6", {
   distance: "300px"
 })
 
-let svg1= document.getElementsByClassName("jordan")
-window.addEventListener(MouseEvent, ()=> {
-  
 
-})
 
 
 

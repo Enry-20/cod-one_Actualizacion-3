@@ -6,7 +6,7 @@
 
 /* NAVEGATION */
 .navbar-brand {
-    font-family: 'Manrope', sans-serif;;
+    font-family: 'Manrope', sans-serif;
 }
 
 .nav-link{
@@ -144,11 +144,11 @@ width: 50%;
   }
 
 .cont3:hover .galery-two {
-    opacity: 0.3;
+    opacity: .5;
 }
   
 .cont3:hover .overlay {
-    opacity: 1;
+    
 }
 
 .text1 {
@@ -162,6 +162,49 @@ width: 50%;
     padding: 16px 32px;
 
   }
+/* Shoes gallery */
+.shoes{
+    position: relative;
+    background: white;
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    overflow: auto;
+    border-radius: 5px;
+    padding-bottom: 50px;
+}
+.item1{position: absolute;
+    left: 400px;
+    bottom: 30px;
+    
+
+}
+
+
+.img0{
+    position: absolute;
+    left: 50px;
+    bottom: 60px;
+    width: 25%;
+}
+.img1{
+    position: absolute;
+    left: 400px;
+    bottom: 30px;
+    width: 35%;
+}
+.img2{
+    position: absolute;
+    left: 800px;
+    bottom: 60px;
+    width: 35%;
+}
+
+
+
+
+
+
 
 /* COMMENTS */
   /* Responsive layout - makes a two column-layout instead of four columns */
