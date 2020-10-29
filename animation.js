@@ -6,15 +6,22 @@ enlace.onclick= preesme;
 
 // Scroll fuctions 
 let nav = document.getElementById("navbar")
+let link= document.getElementById("link1")
 function scrolled(){
   let fondo= window.pageYOffset
   
   if(fondo>770){
-  nav.classList.add("active0")}
-  else{nav.classList.remove("active0")}
+  nav.classList.add("active0");
 }
-window.addEventListener("scroll", scrolled)
+  else{
+    nav.classList.remove("active0");
+    }
+  }
 
+window.addEventListener("scroll", scrolled)
+window.setTimeout(scrolled, 1000)
+
+MouseEvent.
 
 // let jordan= document.getElementById("imagen6")
 // function JordanScrolled(){
