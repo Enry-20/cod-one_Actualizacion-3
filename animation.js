@@ -7,7 +7,7 @@ enlace.onclick= preesme;
 // Scroll fuctions 
 let nav = document.getElementById("navbar")
 let link= document.getElementById("link1")
-function scrolled(){
+function scrolled(par1){
   let fondo= window.pageYOffset
   
   if(fondo>770){
@@ -21,7 +21,13 @@ function scrolled(){
 window.addEventListener("scroll", scrolled)
 window.setTimeout(scrolled, 1000)
 
-MouseEvent.
+
+
+
+
+
+
+
 
 // let jordan= document.getElementById("imagen6")
 // function JordanScrolled(){
@@ -32,6 +38,7 @@ MouseEvent.
 //   else{nav.classList.remove("fixed-bottom")}
 // }
 // window.addEventListener("scroll", JordanScrolled);
+
 // Scroll animations
 
 // Method1
@@ -40,6 +47,7 @@ ScrollReveal().reveal(".carousel", {delay: 300})
 ScrollReveal().reveal(".subback", {delay: 400})
 ScrollReveal().reveal("#text-novelties", {delay: 500})
 ScrollReveal().reveal(".galery-two", {delay: 700})
+ScrollReveal().reveal("#navbar", {delay: 700})
 
 
 // Method2
@@ -58,6 +66,26 @@ Window.sr.reveal("#imagen5", {
 Window.sr.reveal("#imagen6", {
   duration: 1300,
   origin: "bottom",
+  distance: "300px"
+})
+Window.sr.reveal(".imag1", {
+  duration: 1300,
+  origin: "left",
+  distance: "300px"
+})
+Window.sr.reveal(".img0", {
+  duration: 1200,
+  origin: "top",
+  distance: "300px"
+})
+Window.sr.reveal(".img1", {
+  duration: 1800,
+  origin: "top",
+  distance: "300px"
+})
+Window.sr.reveal(".img2", {
+  duration: 1500,
+  origin: "top",
   distance: "300px"
 })
 
