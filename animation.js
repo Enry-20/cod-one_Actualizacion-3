@@ -1,32 +1,38 @@
 let enlace= document.getElementsByClassName("liga1");
 function preesme(){
-  window.location.href="https://getbootstrap.com/docs/4.5/components/collapse/"
+  window.location.href=""
 }
 enlace.onclick= preesme;
 
 // Scroll fuctions 
-let nav = document.getElementById("navbar")
-let link= document.getElementById("link1")
-function scrolled(par1){
-  let fondo= window.pageYOffset
-  
-  if(fondo>770){
-  nav.classList.add("active0");
+let nav = document.getElementById("navbar");
+function scrolled(){
+let fondo= window.pageYOffset
+if(fondo>50){
+nav.classList.add("active0"); 
 }
-  else{
-    nav.classList.remove("active0");
-    }
-  }
-
+else{
+  nav.classList.remove("active0")
+}
+}
 window.addEventListener("scroll", scrolled)
-window.setTimeout(scrolled, 1000)
+// scrolled.setTieout(500)
 
-
-
-
-
-
-
+// SHOES CAROUSEL
+let img0= document.getElementsByClassName("img0")
+let img1= document.getElementsByClassName("img1")
+let img2= document.getElementsByClassName("img2")
+window.addEventListener("load", ()=>{
+  new Glider(document.querySelector('.element'), {
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    dots: '.dots',
+    arrows: {
+      prev: '.glider-prev',
+      next: '.glider-next'
+    }
+  });
+})
 
 
 // let jordan= document.getElementById("imagen6")
@@ -39,8 +45,8 @@ window.setTimeout(scrolled, 1000)
 // }
 // window.addEventListener("scroll", JordanScrolled);
 
-// Scroll animations
 
+// Scroll animations
 // Method1
 ScrollReveal().reveal("#navbar", {delay: 500})
 ScrollReveal().reveal(".carousel", {delay: 300})
@@ -57,7 +63,6 @@ Window.sr.reveal(".imagen4", {
   origin: "left",
   distance: "300px"
 })
-
 Window.sr.reveal("#imagen5", {
   duration: 1300,
   origin: "right",
