@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+
+  <title>Sneack</title>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- CSS implemantions -->
+  <link rel="stylesheet" href="../css/main.css">
+  <!-- Glider styles -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <!-- Fuentes google -->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Rajdhani:wght@700&display=swap"
+    rel="stylesheet">
+
+
+</head>
+
+<body class="back">
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top py-3" class="active1" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="./html/home0.html"><img src="img/" alt="" style="width: 50px" ;> Sneack </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" , id="navbarNav">
+        <ul class="navbar-nav m-auto" , id="uel">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">News
+              <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About-us">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Novelties">Novelties</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="clasics.html">Clasics</a>
+          </li>
+        </ul>
+        <!-- Icons -->
+        <div class="iconos">
+          <button class="fas fa-shopping-cart" , id="car" , style="background: none; border: none;"></button>
+        </div>
+
+        <div class="search-box">
+          <div class="cover-ctn-search"></div>
+
+          <button class="fas fa-search" , id="lupa" type="submit" style="background: none; border: none;"></button>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CARROUSEL -->
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" , class="photo">
+        <img src="../img/pexels-photo-1478442.jpeg" class="d-block w-100" alt="..." , class="photo">
+        <div class="text0">
+          <h2> Lorem, ipsum dolor.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, modi.</p>
+          <button class="btn btn-light" , class="boton">View more</button>
+        </div>
+      </div>
+      <div class="carousel-item" , class="photo">
+        <img src="../img/life-style.jpeg" class="d-block w-100" alt="..." , class="photo">
+        <div class="text0" , id="vida-estilo">
+          <h2> Life Style.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, modi.</p>
+          <button class="btn btn-outline-dark" , class="boton">View more</button>
+        </div>
+      </div>
+      <div class="carousel-item" ,>
+        <img src="../img/huella.jpeg" class="d-block w-100" alt="..." , class="photo">
+        <div class="text0" , id="pisada">
+          <h2> Lorem, ipsum dolor.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, modi.</p>
+          <button class="btn btn-outline-dark" , class="boton">View more</button>
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+    <!--ABOUT US  -->
+    <div class="about-os">
+
+      <div class="back2" id="About-us">
+        <div class="subback">
+          <h2 class=>About us</h2>
+          <p class=>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere iste obcaecati praesentium dolor eum
+            doloremque at dicta provident. Magnam, reiciendis!</p>
+          <p class=>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere iste obcaecati praesentium dolor eum
+            doloremque at dicta provident. Magnam, reiciendis!</p>
+          <button class="btn btn-outline-dark">View more</button>
+        </div>
+        <div class="imagen4">
+          <img class="liga1" onclick="preesme()" src="../img/robo 2.jpg" alt="Responsive image" style="width: 100%;">
+        </div>
+
+      </div>
+      <div class="back2">
+        <img id="imagen5" class="liga1" onclick="preesme()" src="../img/img06mod.jpg" alt="Responsive image"
+          style="width: 60%;">
+        <div class="subback">
+          <h2>Quallity resposive</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere iste obcaecati praesentium dolor eum
+            doloremque at dicta provident. Magnam, reiciendis!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere iste obcaecati praesentium dolor eum
+            doloremque at dicta provident. Magnam, reiciendis!</p>
+          <button class="btn btn-outline-dark" , class="boton">View more</button>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- NOVELTIES -->
+    <div id="Novelties">
+      <h1 id="text-novelties" style="color: black;   color: white;">N o v e l t i e s</h1>
+    </div>
+
+    <!--   SECCION 2   -->
+    <section class="two">
+      <!-- JORDAN -->
+
+      <div class="jordan">
+        <img id="imagen6" src="../img/jordan white.svg" ,
+          style="justify-content: space-around; padding-left: 550px; padding-top:30px; padding-bottom:30px; width: 60%;"
+          alt="">
+
+      </div>
+      <!-- Gallery Jordan -->
+      <div class="galery-jordan">
+        <div class="cont3">
+          <img class="galery-two" src="../img/creator.jpeg" alt="Responsive image">
+          <div class="overlay">
+            <button class="btn btn-outline-primary" , class="text1"> Scene</button>
+          </div>
+        </div>
+
+        <div class="cont3">
+          <!-- Espacio estetico -->
+          <div class="overlay">
+            <p class="text1"></p>
+          </div>
+        </div>
+        <div class="cont3">
+          <img class="galery-two" src="../img/beauty.jpeg" alt="Responsive image">
+          <div class="overlay">
+            <button class="btn btn-outline-danger" , class="text1"> Street Wear</button>
+          </div>
+        </div>
+        <div class="cont3">
+          <img class="galery-two" src="../img/basketball.webp" alt="Responsive image">
+          <div class="overlay">
+            <button class="btn btn-outline-dark" , class="text1"> F L Y</button>
+          </div>
+        </div>
+        <div class="cont3">
+          <img class="galery-two" src="../img/woman.jpeg" alt="Responsive image">
+          <div class="overlay">
+            <button class="btn btn-outline-light" , class="text1"> W o m a n</button>
+          </div>
+        </div>
+        <div class="cont3">
+          <img class="galery-two" src="../img/style-men.jpeg" alt="">
+          <div class="overlay">
+            <button class="btn btn-outline-light" , class="text1">Style</button>
+          </div>
+        </div>
+        <div class="cont3">
+          <!--Espacio estetico  -->
+          <div class="overlay">
+            <p class="text1"></p>
+          </div>
+        </div>
+      </div>
+      <!-- Shoes Gallery -->
+      <div class="shoes" id="tenis">
+        <div class="element">
+          <i class="fas fa-caret-left" id="atras"></i>
+          <div class="contenido__lista">
+            <div class="contenido__elemento">
+              <img id="img0" src="../img/yezz1.jpg" data-toggle="tooltip" data-placement="top" alt="">
+            </div>
+            <div class="contenido__elemento">
+              <img id="img1" src="../img/wyNot.jpg" data-toggle="tooltip" data-placement="top" alt="">
+            </div>
+            <div class="contenido__elemento"><img id="img2" src="../img/off3.jpg" data-toggle="tooltip"
+                data-placement="top" alt=""> </div>
+            <div class="contenido__elemento"><img id="img3" src="../img/AirMax.jpg" data-toggle="tooltip"
+                data-placement="top" alt=""> </div>
+          </div>
+          <i class="fas fa-caret-right" id="adelante"></i>
+        </div>
+        <div role="tablist" class="dots"></div>
+      </div>
+
+      <!-- CARDS -->
+      <div class="cards__list" , id="tarjetas">
+        <i class="fas fa-caret-left" id="prev2"></i>
+        <div class="cards__element" , class="active3">
+          <img src="../img/news-jordan1.jpg" alt="" class="imag1">
+          <div class="middle1">
+            <p class="texto10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores deserunt fugiat totam
+              dolore eos error cumque at vitae? Totam, rerum.</p>
+            <button class="btn btn-outline-danger" , class="boton3">More</button>
+          </div>
+        </div>
+
+        <div class="cards__element" style="margin-bottom: 10px;">
+          <img src="../img/kyrie7.jpg" alt="" class="imag1">
+          <div class="middle1">
+            <p class="texto10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores deserunt fugiat totam
+              dolore eos error cumque at vitae? Totam, rerum.</p>
+            <button class="btn btn-outline-primary" , class="boton3">More</button>
+          </div>
+        </div>
+
+        <div class="cards__element">
+          <img src="../img/Converse_x_Union_Chuck_Taylor_All_Star.jpg" alt="" class="imag1">
+          <div class="middle1">
+            <p class="texto10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores deserunt fugiat totam
+              dolore eos error cumque at vitae? Totam, rerum.</p>
+            <button class="btn btn-outline-dark" , class="boton3">More</button>
+          </div>
+        </div>
+
+        <div class="cards__element" , class="active3">
+          <img src="../img/dia de muertos.jpg" alt="" class="imag1">
+          <div class="middle1">
+            <p class="texto10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores deserunt fugiat totam
+              dolore eos error cumque at vitae? Totam, rerum.</p>
+            <button class="btn btn-outline-success" , class="boton3">More</button>
+          </div>
+        </div>
+        <div class="cards1"></div>
+        <i class="fas fa-caret-right" id="next1"></i>
+      </div>
+      <p style="padding: 50px;"></p>
+
+    </section>
+
+
+    <section id="three">
+    </section>
+
+
+    <!-- Scripts -->
+    <!-- Animations -->
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+    <!-- Scroll reveal animations -->
+    <script src="../js/scrollreveal.js"></script>
+    <!-- LINKS -->
+    <script src="../js/animation.js"></script>
+    <script src="../js/car.js"></script>
+    <!-- Glider js -->
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    <!-- Slik -->
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"></script>
+    <!-- JQUERY LINK -->
+    <script src="../js/jquery.js"></script>
+    <!-- BOOTSTRAP -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"></script>
+    </script>
+    <script>
+// window.addEventListener('load', function(){
+//   new Glider(document.querySelector('.contenido__lista'), {
+//   slidesToShow: 5,
+//   arrows: {
+//     prev: '#atras',
+//     next: '#adelante'
+//   }
+// });
+// })
+
+
+    </script>
+
+</body>
+
+</html>

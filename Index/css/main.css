@@ -1,0 +1,403 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* NAVEGATION */
+
+.nav-link {
+    color: white;
+}
+
+.active0 {
+    background: black;
+    box-shadow: 2px black;
+    transition: .5s ease;
+}
+
+.iconos {
+    display: flex;
+}
+
+/* iconos */
+
+#car {
+    top: 23px;
+    font-size: 27px;
+    position: fixed;
+    right: 110px;
+}
+
+#lupa {
+    top: 45px;
+    font-size: 30px;
+    right: 50px;
+    position: fixed;
+    transform: translateY(-50%);
+    transition: all 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#lupa:hover {
+    color: rgb(77, 73, 73);
+}
+
+#car:hover {
+    color: rgb(40, 134, 216);
+}
+
+/*Active*/
+
+.activelupa {
+    position: absolute;
+    left: 930px;
+    font-size: 35px;
+    transform: translateY(-50%);
+}
+
+#close {
+    position: fixed;
+    top: 35px;
+    left: 1000px;
+    font-size: 30px;
+    color: rgb(190, 189, 183);
+    transition: .5s;
+}
+
+#close:hover {
+    color: #2d2d2d
+}
+
+.background {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    position: fixed;
+    display: block;
+    background-color: whitesmoke;
+}
+
+/* Search-bar */
+
+.search-box {
+    position: absolute;
+    display: block;
+    right: 30px;
+    display: flex;
+    gap: 5px;
+}
+
+#input-search {
+    border-radius: 30px;
+    border: none;
+    position: fixed;
+    right: 430px;
+    font-size: 20px;
+    width: 500px;
+    top: 30px;
+}
+
+.cover-ctn-search {
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    background: black;
+    opacity: .3;
+    display: none;
+    position: fixed;
+}
+
+.activeCover {
+    display: block;
+}
+
+/* Position */
+
+.photo {
+    position: absolute;
+    width: 100%;
+    height: 800px;
+}
+
+.text0 {
+    max-width: 1000px;
+    position: absolute;
+    bottom: 50px;
+    right: 430px;
+    text-align: center;
+    color: black;
+}
+
+/* About us */
+
+.back2 {
+    display: flex;
+}
+
+.subback {
+    padding: 50px;
+}
+
+.back2 img {
+    padding: 20px;
+}
+
+/* Novelties */
+
+#Novelties {
+    background: url(../img/volando.jpeg) no-repeat center center/cover;
+    background-attachment: fixed;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+}
+
+/* Jordan */
+
+.two {
+    /* background: #F3E2A9; */
+    background: linear-gradient(#F3E2A9, gray);
+    position: relative;
+    width: 100%;
+}
+
+/* Galery" structure */
+
+.two .galery-jordan {
+    position: relative;
+    margin: auto;
+    width: 90%;
+    height: auto;
+    padding: 45px 0px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    grid-auto-flow: dense;
+}
+
+.two .galery-jordan .cont3 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.two.galery-jordan .cont3:first-child {
+    grid-column-start: span 1;
+    grid-row-start: span 3;
+}
+
+.two .galery-jordan .cont3:nth-child(2n+3) {
+    grid-row-start: span 2;
+}
+
+.two .galery-jordan .cont3:nth-child(4n+5) {
+    grid-column-start: span 2;
+    grid-row-start: span 2;
+}
+
+.two .galery-jordan .cont3:nth-child(6n+7) {
+    grid-row-start: span 1;
+}
+
+.two .galery-jordan .cont3:nth-child(8n+9) {
+    grid-column-start: span 1;
+    grid-row-start: span 1;
+}
+
+.two .galery-jordan .cont3 .galery-two {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cont3 {
+    position: relative;
+    width: 50%;
+}
+
+.galery-two {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 5px;
+}
+
+.overlay {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.galleryActive {
+    opacity: .6;
+}
+
+.cont3:hover .overlay {
+    opacity: 1;
+}
+
+.text1 {
+    color: white;
+    font-size: 30px;
+    padding: 16px 32px;
+}
+
+.text2 {
+    color: black;
+    font-size: 30px;
+    padding: 16px 32px;
+}
+
+/* Shoes gallery */
+
+#tenis {
+    margin: auto 200px
+}
+
+.contenido__lista {
+    display: flex;
+    width: 100%;
+}
+
+.contenido__elemento img {
+    border-radius: 3px;
+    width: 60%;
+}
+
+#atras, #adelante {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    top: calc(50% - 35px);
+    line-height: 30px;
+    text-align: center;
+}
+
+#atras {
+    left: 10px;
+}
+
+#right {
+    right: -20px;
+}
+
+#boton-prev:hover {
+    background: lightslategray;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#boton-next:hover {
+    background: lightslategray;
+    border-radius: 0px 0px 5px 5px;
+}
+
+/*CARDS */
+
+.cards__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto 50px;
+    margin-top: 30px;
+    width: 100%;
+    overflow: auto;
+    gap: 10px;
+}
+
+.cards__element {
+    position: relative;
+}
+
+.middle1 {
+    width: 330px;
+    background: whitesmoke;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 20px;
+}
+
+.imag1 {
+    display: block;
+    width: 330px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.texto10 {
+    color: black;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.boton3 {
+    margin-bottom: 10px;
+}
+
+#prev2 {
+    font-size: 30px;
+    z-index: 100;
+}
+
+#next1 {
+    font-size: 30px;
+    z-index: 100;
+}
+
+/* SECTION 3 */
+
+#three {
+    background: linear-gradient(gray, #A9A9F5);
+}
+
+/* RESPONSIVE */
+
+.contenedor {
+    width: 100%;
+    max-width: 100%;
+}
+
+@media screen and (max-width:1200px) {
+    /* For mobile phones: */
+    .text0 {
+        width: 75%;
+        right: 70px;
+        bottom: 40px;
+    }
+    .galery-jordan {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .subback {
+        width: 1800px;
+    }
+    .liga1 {
+        height: auto;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .text0 h2 {
+        padding-bottom: 10px;
+    }
+    .text0 p {
+        display: none;
+    }
+    .cont3 {
+        width: 100%;
+    }
+    .imag1 {
+        width: 100%;
+    }
+}
+
+/* COMMENTS */
