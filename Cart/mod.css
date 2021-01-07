@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;}
+.container0 i{
+    font-size: 40px;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    cursor: pointer;}
+.container0{
+    position: absolute;
+    top: calc(30%);
+    left: calc(50% - 100px);}
+@media screen and (max-width:800px){
+    #cabeza{
+        display: none;}}
+
+ 
