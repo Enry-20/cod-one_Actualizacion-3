@@ -1,0 +1,26 @@
+{
+  "name": "cod-one_actualizacion-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "indext.js",
+  "scripts": {
+    "start": "node Server/indext.js",
+    "dev":"nodemon indext.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enry-20/cod-one_Actualizacion-3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Enry-20/cod-one_Actualizacion-3/issues"
+  },
+  "homepage": "https://github.com/Enry-20/cod-one_Actualizacion-3#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6"
+  }
+}
