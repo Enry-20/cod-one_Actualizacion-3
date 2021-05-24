@@ -54,10 +54,19 @@ lupa.addEventListener("click", function input() {
   })
 })
 
-//GALLERY
+//SHOE GALLERY
+const galery_content=document.getElementById("contenido__lista")
+const back=document.getElementById("back")
+const next= document.getElementById("next")
 
-
+next.addEventListener("click", ()=>{
+  galery_content.scrollLeft += galery_content.offsetWidth
+})
+back.addEventListener("click", ()=>{
+  galery_content.scrollLeft -= galery_content.offsetWidth
+})
 //CARDS
+
 
 //ANIMATIONS
 
@@ -114,36 +123,5 @@ Window.sr.reveal(".img2",
     distance: "300px"
   })
 
-// TRIES
-// let enlace= document.getElementsByClassName("liga1");
-// function preesme(){
-//   window.location.href=""
-// }
-// enlace.onclick= preesme;
-
-// let jordan= document.getElementById("imagen6")
-// function JordanScrolled(){
-//   let fondo= window.pageYOffset
-
-//   if(fondo>=2000){
-//   jordan.classList.add("fixed-bottom")}
-//   else{nav.classList.remove("fixed-bottom")}
-// }
-// window.addEventListener("scroll", JordanScrolled);
-
-
-
-
-
-
-
-// function slowdown(){
-//   if( document.nav.scrollTop>80 || document.body.scrollTop>80){
-//     document.getElementById("navbar2").style.background= "black"
-//     document.getElementById("navbar2").style.padding= "35px"
-//   }
-//   else { document.getElementById("navbar2").style.background="none"
-// document.getElementById("navbar2").style.padding= "0px"}
-// }
 
 

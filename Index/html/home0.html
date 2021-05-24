@@ -8,7 +8,7 @@
 
   <title>Sneack</title>
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -120,12 +120,12 @@
           <button class="btn btn-outline-dark">View more</button>
         </div>
         <div class="imagen4">
-          <img class="liga1" onclick="preesme()" src="../img/robo 2.jpg" alt="Responsive image" style="width: 100%;">
+          <img class="liga1" src="../img/robo 2.jpg" alt="Responsive image" style="width: 100%;">
         </div>
 
       </div>
       <div class="back2">
-        <img id="imagen5" class="liga1" onclick="preesme()" src="../img/img06mod.jpg" alt="Responsive image"
+        <img id="imagen5" class="liga1" src="../img/img06mod.jpg" alt="Responsive image"
           style="width: 60%;">
         <div class="subback">
           <h2>Quallity resposive</h2>
@@ -200,69 +200,69 @@
           </div>
         </div>
       </div>
+
       <!-- Shoes Gallery -->
-      <div class="shoes" id="tenis">
-        <div class="element">
-          <i class="fas fa-caret-left" id="atras"></i>
-          <div class="contenido__lista">
-            <div class="contenido__elemento">
-              <img id="img0" src="../img/yezz1.jpg" data-toggle="tooltip" data-placement="top" alt="">
-            </div>
-            <div class="contenido__elemento">
-              <img id="img1" src="../img/wyNot.jpg" data-toggle="tooltip" data-placement="top" alt="">
-            </div>
-            <div class="contenido__elemento"><img id="img2" src="../img/off3.jpg" data-toggle="tooltip"
-                data-placement="top" alt=""> </div>
-            <div class="contenido__elemento"><img id="img3" src="../img/AirMax.jpg" data-toggle="tooltip"
-                data-placement="top" alt=""> </div>
-          </div>
-          <i class="fas fa-caret-right" id="adelante"></i>
+      <div id="tenis">
+        <div id="contenido__lista">
+          <img src="../img/yezz1.jpg" alt="">
+          <img src="../img/AirMax.jpg" alt="">
+          <img src="../img/wyNot.jpg" alt="">
+          <img src="../img/off3.jpg" alt="">
         </div>
-        <div role="tablist" class="dots"></div>
+        <div id="botones">
+          <button id="back" class="fas fa-caret-left"></button>
+          <button id="next" class="fas fa-caret-right"></button>
+        </div>
+
+
       </div>
 
       <!-- CARDS -->
-      <div class="cards__list" , id="tarjetas">
-        <i class="fas fa-caret-left" id="prev2"></i>
-        <div class="cards__element" , class="active3">
-          <img src="../img/news-jordan1.jpg" alt="" class="imag1">
-          <div class="middle1">
-            <p class="texto10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores deserunt fugiat totam
-              dolore eos error cumque at vitae? Totam, rerum.</p>
-            <button class="btn btn-outline-danger" , class="boton3">More</button>
+      <div id="tarjetas">
+        <div class="cards_list">
+          <div class="cards__element" , class="active3">
+            <img src="../img/news-jordan1.jpg" alt="" class="imag1">
+            <div class="middle1">
+              <p class="texto10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores deserunt fugiat totam
+                dolore eos error cumque at vitae? Totam, rerum.</p>
+              <button class="btn btn-outline-danger" , class="boton3">More</button>
+            </div>
+          </div>
+  
+          <div class="cards__element" style="margin-bottom: 10px;">
+            <img src="../img/kyrie7.jpg" alt="" class="imag1">
+            <div class="middle1">
+              <p class="texto10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores deserunt fugiat totam
+                dolore eos error cumque at vitae? Totam, rerum.</p>
+              <button class="btn btn-outline-primary" , class="boton3">More</button>
+            </div>
+          </div>
+  
+          <div class="cards__element">
+            <img src="../img/Converse_x_Union_Chuck_Taylor_All_Star.jpg" alt="" class="imag1">
+            <div class="middle1">
+              <p class="texto10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores deserunt fugiat totam
+                dolore eos error cumque at vitae? Totam, rerum.</p>
+              <button class="btn btn-outline-dark" , class="boton3">More</button>
+            </div>
+          </div>
+  
+          <div class="cards__element" , class="active3">
+            <img src="../img/dia de muertos.jpg" alt="" class="imag1">
+            <div class="middle1">
+              <p class="texto10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores deserunt fugiat totam
+                dolore eos error cumque at vitae? Totam, rerum.</p>
+              <button class="btn btn-outline-success" , class="boton3">More</button>
+            </div>
           </div>
         </div>
 
-        <div class="cards__element" style="margin-bottom: 10px;">
-          <img src="../img/kyrie7.jpg" alt="" class="imag1">
-          <div class="middle1">
-            <p class="texto10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores deserunt fugiat totam
-              dolore eos error cumque at vitae? Totam, rerum.</p>
-            <button class="btn btn-outline-primary" , class="boton3">More</button>
-          </div>
+        <div id="cards_btn">
+          <i id="v4ack" class="fas fa-caret-left" ></i>
+          <i id="ñ3xt" class="fas fa-caret-right" ></i>
         </div>
-
-        <div class="cards__element">
-          <img src="../img/Converse_x_Union_Chuck_Taylor_All_Star.jpg" alt="" class="imag1">
-          <div class="middle1">
-            <p class="texto10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores deserunt fugiat totam
-              dolore eos error cumque at vitae? Totam, rerum.</p>
-            <button class="btn btn-outline-dark" , class="boton3">More</button>
-          </div>
-        </div>
-
-        <div class="cards__element" , class="active3">
-          <img src="../img/dia de muertos.jpg" alt="" class="imag1">
-          <div class="middle1">
-            <p class="texto10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores deserunt fugiat totam
-              dolore eos error cumque at vitae? Totam, rerum.</p>
-            <button class="btn btn-outline-success" , class="boton3">More</button>
-          </div>
-        </div>
-        <div class="cards1"></div>
-        <i class="fas fa-caret-right" id="next1"></i>
       </div>
-      <p style="padding: 50px;"></p>
+     
 
     </section>
 
@@ -272,17 +272,12 @@
 
 
     <!-- Scripts -->
-    <!-- Animations -->
-    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+
     <!-- Scroll reveal animations -->
     <script src="../js/scrollreveal.js"></script>
     <!-- LINKS -->
     <script src="../js/animation.js"></script>
     <script src="../js/car.js"></script>
-    <!-- Glider js -->
-    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
-    <!-- Slik -->
-
     <!-- JQUERY -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -296,19 +291,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"></script>
-    </script>
-    <script>
-// window.addEventListener('load', function(){
-//   new Glider(document.querySelector('.contenido__lista'), {
-//   slidesToShow: 5,
-//   arrows: {
-//     prev: '#atras',
-//     next: '#adelante'
-//   }
-// });
-// })
-
-
     </script>
 
 </body>
